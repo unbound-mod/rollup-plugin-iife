@@ -17,7 +17,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "es-iife": "^0.2.2",
+    "es-iife": "github:unbound-mod/es-iife",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
