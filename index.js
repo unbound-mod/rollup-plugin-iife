@@ -53,7 +53,7 @@ function createPlugin({
       return iifeTransform({
         code,
         parse: this.parse,
-        name: idToName(path.resolve(outputDir, fileName), [names, globals], prefix),
+        prefix: '',
         sourcemap,
         resolveGlobal: id => idToName(resolveId(id, outputDir), [names, globals], prefix),
         strict
